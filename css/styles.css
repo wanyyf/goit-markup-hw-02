@@ -58,7 +58,7 @@ ul{
     background-color:var(--background-color);
 }
 .hero-title {
-font-style: normal;
+ font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.4;
@@ -66,6 +66,7 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
+
 }
 .hero-button {
     font-style: normal;
@@ -75,7 +76,9 @@ color: #FFFFFF;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     cursor:pointer ;
+    background-color: var(--accent-color);
 }
+
 /* Наши преимущества */
 .benefits-list-item-title {
     font-style: normal;
@@ -144,4 +147,46 @@ color: #FFFFFF;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+}
+
+.logo-part-footer {
+    color: #FFFFFF;
+}
+
+/* Portfolio */
+.filter-button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+    background: #F5F4FA;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.filter-button:hover, .filter-button:focus {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+.examples-link {
+    text-decoration:none ;
+}
+.examples-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+}
+.examples-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;   
+    letter-spacing: 0.03em;
+    color: var(--text-color);
 }
