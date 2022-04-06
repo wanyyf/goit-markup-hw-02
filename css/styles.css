@@ -15,6 +15,7 @@ ul{
 }
 /* header */
 .logo{
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -38,6 +39,9 @@ ul{
     color: var(--title-color);
 }
 .main-list-item:focus,.main-list-item:hover {
+    color: var(--accent-color);
+}
+.main-list-item.current {
     color: var(--accent-color);
 }
 .contact-list-item{
